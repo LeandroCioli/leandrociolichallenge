@@ -15,6 +15,13 @@
 </head>
 <body>
 <div class="wrapper fadeInDown">
+    <?php if(isset($_GET['final']) && $_GET['final']=='true'){
+            echo '<img src="static/festejo.png" alt="" style="width: 8%;
+            margin-bottom: 20px;">';
+        }else if(isset($_GET['r']) && $_GET['r']=='L'){
+            echo '<img src="static/pierde.png" alt="" style="width: 8%;
+            margin-bottom: 20px;">';
+        }?>
     <div id="formContent">
         <h2 class="active">FIN DEL JUEGO</h2>
         <?php if(isset($_GET['r']) && $_GET['r']=='L'){
