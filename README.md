@@ -2,7 +2,7 @@
 Tecnologias utilizadas
 -PHP
 -JavaScript
--SQL
+-MySQL
 -HTML5/CSS3
 -Ajax
 
